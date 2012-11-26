@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+body.page-home .view-homepage .jcarousel-container {
+	width: 1000px;
+	height: 310px;
+	padding: 0;
+	margin-top:2px;
+}
+
+body.page-home .view-homepage .jcarousel-skin-default .jcarousel-clip-horizontal {
+	width: 100%;
+}
+
+body.page-home .view-homepage .jcarousel-skin-default .jcarousel-item-horizontal {
+	margin: 0 2px 0 0;
+	border: 0;
+	height: 310px;
+        position: relative;
+}
+
+body.page-home .view-homepage .jcarousel-skin-default .jcarousel-item-horizontal .rollover_title {
+        width: 312px;
+        height: 294px;
+        float: left;
+        position: absolute;
+        top: 310px;
+        left: 0;
+        background: #e4a04f;
+        opacity: 0.6;
+        filter:alpha(opacity=60);
+        font-family: 'pt-sans';
+        font-size: 30px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: left;
+        padding: 16px 0 0 20px;
+}
+
+body.page-home .view-homepage .jcarousel-skin-default .jcarousel-item-horizontal img {
+	width:337px;
+}
+
+.jcarousel-skin-default .jcarousel-next, .jcarousel-skin-default .jcarousel-prev {
+	width: 10px;
+	height: 17px;
+	top:50%;
+}
+
+.jcarousel-skin-default .jcarousel-next {
+	background:url(../images/next_button.png) no-repeat top left;
+}
+
+.jcarousel-skin-default .jcarousel-prev {
+	background:url(../images/prev_button.png) no-repeat top left;
+}
+
+.jcarousel-skin-default .jcarousel-next:hover, .jcarousel-skin-default .jcarousel-prev:hover {
+	background-position:0 0;
+}
+
+.event-carousel .jcarousel-container {
+	width: 960px;
+	height: 288px;
+	padding: 0;
+}
+
+.event-carousel .jcarousel-skin-default .jcarousel-clip-horizontal {
+	width: 100%;
+}
+
+.event-carousel .jcarousel-skin-default .jcarousel-item-horizontal {
+	height: 288px;
+        border: none;
+        background: none;
+}
+
+.event-carousel .jcarousel-skin-default .jcarousel-item-horizontal img {
+	width:312px;
+        height: 282px;
+}
+
+.event-carousel .jcarousel-skin-default .jcarousel-next {
+	right:-30px;
+}
+
+.event-carousel .jcarousel-skin-default .jcarousel-prev {
+	left: -30px;
+}
+
+.event-carousel .jcarousel-skin-default .jcarousel-item-horizontal .campus_event {
+        position: relative;
+        height: 285px;
+        border-radius: 3px;
+        cursor: pointer;
+}
+
+.event-carousel .jcarousel-skin-default .jcarousel-item-horizontal .campus_event .campus_event_text {
+        position: absolute;
+        text-align: left;
+        background: #FFFFFF;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        border-bottom: 1px solid #e5e5e5;
+        border-right: 1px solid #e5e5e5;
+        border-left: 1px solid #e5e5e5;
+        height: 141px;
+        padding: 16px 18px 5px 16px;
+        box-shadow: 0px 3px 5px #ebebeb;
+        top:290px;
+}
+
+.event-carousel .jcarousel-skin-default .jcarousel-item-horizontal .campus_event .campus_event_text p {
+        margin-bottom: 0;
+}
+
+.event-carousel .jcarousel-skin-default .jcarousel-item-horizontal .campus_event .campus_event_text .campus_event_title {
+        font-family: 'pt-sans-bold';
+        font-size: 15px;
+        color: #00a4e4;
+        margin-bottom: 20px;
+}
+
+.event-carousel .jcarousel-skin-default .jcarousel-item-horizontal .campus_event .campus_event_text .campus_event_body {
+        font-family: 'pt-sans';
+        font-size: 15px;
+}

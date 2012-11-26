@@ -1,0 +1,1149 @@
+@font-face {
+    font-family: 'pt-sans';
+    src: url('../fonts/PTSans/PTS55F-webfont.eot');
+    src: url('../fonts/PTSans/PTS55F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/PTSans/PTS55F-webfont.woff') format('woff'),
+         url('../fonts/PTSans/PTS55F-webfont.ttf') format('truetype'),
+         url('../fonts/PTSans/PTS55F-webfont.svg#PTSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pt-sans-bold';
+    src: url('../fonts/PTSans/PTS75F-webfont.eot');
+    src: url('../fonts/PTSans/PTS75F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/PTSans/PTS75F-webfont.woff') format('woff'),
+         url('../fonts/PTSans/PTS75F-webfont.ttf') format('truetype'),
+         url('../fonts/PTSans/PTS75F-webfont.svg#PTSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('../fonts/Proxima/proximanova-bold-webfont.eot');
+    src: url('../fonts/Proxima/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Proxima/proximanova-bold-webfont.woff') format('woff'),
+         url('../fonts/Proxima/proximanova-bold-webfont.ttf') format('truetype'),
+         url('../fonts/Proxima/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima-nova-light';
+    src: url('../fonts/Proxima/proximanova-light-webfont.eot');
+    src: url('../fonts/Proxima/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Proxima/proximanova-light-webfont.woff') format('woff'),
+         url('../fonts/Proxima/proximanova-light-webfont.ttf') format('truetype'),
+         url('../fonts/Proxima/proximanova-light-webfont.svg#proxima_nova_ltregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body.context-users .profile h3 {
+    font-family: inherit;
+}
+
+body.context-users .profile {
+    margin: 20px 10px 10px;
+}
+
+body.html {
+    background: #f6f6f6;
+    font-family:'pt-sans';
+    font-size:13px;
+    color:#5e5e5e;
+    line-height: 1.25;
+}
+
+header {
+    height: 100px;
+    background: url(../images/header-bg.png) repeat-x top left;
+}
+
+header .container-12, header .container-12 .grid-12 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+} 
+
+#zone-branding-wrapper {
+    line-height: 65px;
+}
+
+#zone-branding-wrapper, #zone-content-wrapper {
+    height: 100%;
+    width: 1080px;
+    margin: 20px auto 0;
+}
+
+#zone-branding-wrapper {
+    position: relative;
+}
+
+#zone-branding-wrapper .branding-data {
+    width: auto;
+    float: left;
+}
+
+#zone-branding-wrapper .user-links {
+    width: auto;
+    float: right;
+    height: 100px;
+    line-height: 100px;
+}
+
+.welcome_text, .account_text, .logout_text {
+    float: left;
+    display: inline-block;
+    margin-left: 18px;
+    color: #FFFFFF;
+}
+
+.welcome_text {
+    font-family: 'pt-sans-bold';
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.welcome_text a:link, .welcome_text a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.account_text a:link, .logout_text a:link, .account_text a:visited, .logout_text a:visited {
+    padding: 12px 20px;
+    background: #434343;
+    font-family: 'pt-sans-bold';
+    font-size: 13px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#zone-content-wrapper .container-12 {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#zone-content-wrapper .container-12 .grid-12 {
+    width: 100%;
+    margin: 0;
+}
+
+#region-sidebar-first {
+    width: 100px;
+    margin: 0;
+    float: left;
+}
+
+#region-content {
+    width: 980px;
+    float: left;
+    margin: 0;
+}
+
+#zone-content-wrapper div.menu-dashboard {
+    width: 100px;
+    float: left;
+}
+
+#zone-content-wrapper div.menu-dashboard ul.menu {
+    margin: 0;
+    border: none;
+    padding: 0;
+}
+
+#zone-content-wrapper div.menu-dashboard ul.menu li {
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: left;
+    width: 100px;
+}
+
+#zone-content-wrapper div.menu-dashboard ul.menu li a {
+    border: none;
+    padding: 0;
+    margin: 0 0 1px 0;
+    width: 100px;
+    height: 100px;
+    font-size: 0px;
+    text-indent: -9999px;
+    background: url(../images/dashboard-button.png) no-repeat top left;
+    float: left;
+}
+
+#zone-content-wrapper div.menu-dashboard ul.menu li a:hover, #zone-content-wrapper div.menu-dashboard ul.menu li a.active {
+    background-position: -300px 0;
+}
+
+#zone-content-wrapper div.menu-dashboard ul.menu li+li a {
+    background-position: -100px 0;
+}
+
+#zone-content-wrapper div.menu-dashboard ul.menu li+li a:hover, #zone-content-wrapper div.menu-dashboard ul.menu li+li a.active,
+#zone-content-wrapper div.menu-dashboard ul.menu li+li a.active-trail {
+    background-position: -500px 0;
+}
+
+#zone-content-wrapper div.menu-dashboard ul.menu li+li+li a {
+    background-position: -200px 0;
+}
+
+#zone-content-wrapper div.menu-dashboard ul.menu li+li+li a:hover, #zone-content-wrapper div.menu-dashboard ul.menu li+li+li a.active {
+    background-position: -400px 0;
+}
+
+#zone-content-wrapper h1#page-title {
+    float: right;
+    margin-bottom: 0;
+}
+
+#zone-content-wrapper #block-system-main {
+    float: right;
+    background: #FFFFFF;
+    min-height: 182px;
+}
+
+body.page-vc-site-settings h1#page-title {
+    border: 10px solid #ff6c32;
+    border-bottom: none;
+    width: 950px;
+    background: #ff6c32;
+    font-family: 'proxima-nova-light';
+    font-size: 32px;
+    font-weight: normal;
+    color: #FFFFFF;
+    padding: 20px 0 20px 10px;
+}
+
+body.page-vc-site-settings #block-system-main {
+    border: 10px solid #ff6c32;
+    width: 960px;
+}
+
+body.page-vc-dashboard h1#page-title {
+    border: 10px solid #3fbeff;
+    border-bottom: none;
+    width: 950px;
+    background: #3fbeff;
+    font-family: 'proxima-nova-light';
+    font-size: 32px;
+    font-weight: normal;
+    color: #FFFFFF;
+    padding: 10px 0 10px 10px;
+    height: 60px;
+    line-height: 60px;
+}
+
+body.page-vc-dashboard #block-system-main {
+    border: 10px solid #3fbeff;
+    width: 960px;
+    padding-bottom: 10px;
+}
+
+body.page-vc-contents h1#page-title, body.page-node-edit h1#page-title,
+body.page-node-add h1#page-title,
+body.page-admin-structure-fieldable-panels-panes-view-edit h1#page-title {
+    border: 10px solid #13b664;
+    border-bottom: none;
+    width: 950px;
+    background: #13b664;
+    font-family: 'proxima-nova-light';
+    font-size: 32px;
+    font-weight: normal;
+    color: #FFFFFF;
+    padding: 10px 0 10px 10px;
+    height: 60px;
+    line-height: 60px;
+}
+
+body.page-vc-contents #block-system-main, body.page-node-edit #block-system-main,
+body.page-node-add #block-system-main,
+body.page-admin-structure-fieldable-panels-panes-view-edit #block-system-main {
+    border: 10px solid #13b664;
+    width: 960px;
+    padding-bottom: 10px;
+}
+
+body.page-user-edit h1#page-title, body.page-user h1#page-title {
+    border: 10px solid #333333;
+    border-bottom: none;
+    width: 950px;
+    background: #333333;
+    font-family: 'proxima-nova-light';
+    font-size: 32px;
+    font-weight: normal;
+    color: #FFFFFF;
+    padding: 10px 0 10px 10px;
+    height: 60px;
+    line-height: 60px;
+}
+
+body.page-user-edit #block-system-main, body.page-user #block-system-main {
+    border: 10px solid #333333;
+    width: 960px;
+    padding-bottom: 10px;
+}
+
+form#vc-admin-site-settings-form legend {
+    width: 910px;
+    margin: 10px 0 30px 20px;
+    color: #000000;
+    font-family: 'pt-sans-bold';
+    font-size: 24px;
+    float: left;
+}
+
+form#vc-admin-site-settings-form .fieldset-wrapper {
+    margin: 0 30px;
+    width: auto;
+    color: #5e5e5e;
+}
+
+form#vc-admin-site-settings-form .fieldset-wrapper label {
+    font-family: 'pt-sans';
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+form#vc-admin-site-settings-form .fieldset-wrapper input.form-text {
+    width: 900px;
+    height: 52px;
+    border: 1px solid #aaaaaa;
+    font-size: 15px;
+}
+
+form#vc-admin-site-settings-form .fieldset-wrapper .description {
+    font-family: 'pt-sans';
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form#vc-admin-site-settings-form .form-actions {
+    margin-left: 30px;
+}
+
+.google-analytics-visits {
+    margin: 10px 10px 20px 10px;
+    float: left;
+}
+
+.google-analytics-visits h3 {
+    margin-bottom: 0;
+    height: 45px;
+    width: 100%;
+    line-height: 45px;
+    background: #457e9b;
+    font-family: 'pt-sans-bold';
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.google-analytics-conversion {
+    width: 340px;
+    height: 172px;
+    padding: 0;
+    margin: 0 5px 0 0;
+    float: left;
+}
+
+.google-analytics-visitor-loyalty {
+    width: 340px;
+    height: 172px;
+    padding: 0;
+    margin: 0 5px;
+    float: left;
+}
+
+.google-analytics-social {
+    width: 240px;
+    height: 172px;
+    padding: 0;
+    margin: 0 0 0 5px;
+    float: left;
+}
+
+.google-analytics-conversion-data, .google-analytics-visitor-loyalty-data {
+    height: 127px;
+    line-height: 127px;
+    text-align: center;
+    background: #78bfe3;
+    font-family: 'pt-sans';
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.google-analytics-facebook {
+    width: 240px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    margin-bottom: 11px;
+    background: url(../images/facebook-bg.png) no-repeat top left;
+    float: left;
+    color: #96b8ff;
+    font-family: 'pt-sans';
+    font-size: 24px;
+}
+
+.google-analytics-facebook .odd, .google-analytics-twitter .odd {
+    text-align: right;
+    float: left;
+    width: 50%;
+}
+
+.google-analytics-facebook .even, .google-analytics-twitter .even {
+    font-family: 'pt-sans-bold';
+    font-size: 14px;
+    color: #FFFFFF;
+    float: left;
+    width: 42%;
+    padding-left: 8%;
+    text-align: left;
+}
+
+.google-analytics-twitter {
+    width: 240px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    float: left;
+    margin-top: 1px;
+    background: url(../images/twitter-bg.png) no-repeat top left;
+    color: #d5f2ff;
+    font-family: 'pt-sans';
+    font-size: 24px;
+}
+
+.google-analytics-visits-chart {
+    margin: 0px 10px 20px 10px;
+    float: left;
+    width: 940px;
+}
+
+.google-analytics-visits-chart h3 {
+    font-family: 'pt-sans-bold';
+    font-size: 18px;
+    color: #555555;
+}
+
+.google-analytics-visits-chart .google-analytics-visits-chart-desc {
+    font-family: 'pt-sans-bold';
+    color: #666666;
+}
+
+.google-analytics-site-info {
+    width: 340px;
+    float: left;
+    margin: 0 5px 0 10px;
+}
+
+.google-analytics-site-info h3 {
+    margin-bottom: 0;
+    height: 45px;
+    width: 100%;
+    line-height: 45px;
+    background: #457e9b;
+    font-family: 'pt-sans-bold';
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.google-analytics-site-info ul li {
+    list-style: none;
+    display: block;
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+    border-bottom: 1px #6caccc solid;
+    border-top: 1px #93cce9 solid;
+    text-align: center;
+    background: #78bfe3;
+    color: #FFFFFF;
+}
+
+.google-analytics-site-info ul li.first {
+    border-top: none;
+}
+
+.google-analytics-site-info ul li.last {
+    border-bottom: none;
+}
+
+.google-analytics-site-info .odd {
+    font-size: 26px;
+    font-family: 'pt-sans';
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.google-analytics-site-info .even {
+    font-size: 12px;
+    font-family: 'pt-sans-bold';
+    width: 45%;
+    float: left;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 5%;
+}
+
+.google-analytics-top {
+    float: left;
+    width: 590px;
+    margin: 0 10px 0 5px;
+}
+
+.google-analytics-top ul, .google-analytics-referrals ul, .google-analytics-keywords ul {
+    float: left;
+    margin-bottom: 5px;
+}
+
+.google-analytics-top ul li, .google-analytics-referrals ul li, .google-analytics-keywords ul li {
+    margin: 0;
+    text-align: center;
+    width: 588px;
+    border-bottom: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+    background: #f7f7f7;
+    float: left;
+}
+
+.google-analytics-top ul li.first, .google-analytics-referrals ul li.first, .google-analytics-keywords ul li.first {
+    border-bottom: none;
+    background: #457e9b;
+    width: 590px;
+    border-left: none;
+    border-right: none;
+    padding: 0;
+}
+
+.google-analytics-top ul li.first h3 {
+    margin-bottom: 0;
+    height: 45px;
+    width: 100%;
+    line-height: 45px;
+    background: #457e9b;
+    font-family: 'pt-sans-bold';
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.google-analytics-top ul li.first h3.odd, .google-analytics-top ul li .odd {
+    width: 470px;
+    float: left;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.google-analytics-top ul li .odd, .google-analytics-referrals ul li .odd, .google-analytics-keywords ul li .odd {
+    text-align: left;
+    font-family: 'pt-sans';
+    font-size: 14px;
+    padding: 15px 0 15px 14px;
+}
+
+.google-analytics-top ul li .odd a, .google-analytics-referrals ul li .odd a, .google-analytics-keywords ul li .odd a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.google-analytics-top ul li .even, .google-analytics-referrals ul li .even, .google-analytics-keywords ul li .even {
+    width: 104px;
+    float: right;
+    background: #78bfe3;
+    padding: 16px 0 15px;
+    border-top: 1px solid #93cce9;
+    font-family: 'pt-sans-bold';
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.google-analytics-top ul li.first h3.even {
+    width: 104px;
+    float: right;
+    border-top: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.google-analytics-referrals {
+    width: 285px;
+    float: left;
+    margin-right: 10px;
+}
+
+.google-analytics-referrals h3 {
+    margin-bottom: 0;
+    height: 45px;
+    width: 100%;
+    line-height: 45px;
+    background: #457e9b;
+    font-family: 'pt-sans-bold';
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.google-analytics-keywords {
+    width: 285px;
+    float: left;
+    margin-left: 10px;
+}
+
+.google-analytics-keywords h3 {
+    margin-bottom: 0;
+    height: 45px;
+    width: 100%;
+    line-height: 45px;
+    background: #457e9b;
+    font-family: 'pt-sans-bold';
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body.page-vc-contents .content_type_list li {
+    margin: 0 10px;
+    padding: 30px 37px;
+    width: 866px;
+    border-bottom: 1px solid #cccccc;
+    float: left;
+}
+
+body.page-vc-contents .content_type_list li span {
+    font-family: 'pt-sans-bold';
+    color: #b8b8b8;
+    font-size: 11px;
+    text-transform: uppercase;
+    float: left;
+}
+
+body.page-vc-contents .content_type_list li a {
+    color: #000000;
+    font-family: 'pt-sans-bold';
+    font-size: 24px;
+    text-decoration: none;
+    clear: left;
+    float: left;
+}
+
+.view-vc-content-admin .view-header {
+    margin: 10px 10px 34px 10px;
+    font-family: 'pt-sans-bold';
+    color: #b8b8b8;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-left: 37px;
+    padding-top: 18px;
+    position: relative;
+    width: 270px;
+    float: left;
+}
+
+.view-vc-content-admin .view-header .view-content,
+.view-vc-content-admin .view-header .content_type_name {
+    color: #000000;
+    font-family: 'pt-sans-bold';
+    font-size: 24px;
+    width: 140px;
+}
+
+.view-vc-content-admin .view-header .view-content .content_admin_link a,
+.view-vc-content-admin .view-header .view-empty .content_no_data a {
+    width: 120px;
+    height: 38px;
+    background: url(../images/add-content-button.png) no-repeat top left;
+    float: left;
+    font-size: 0px;
+    text-indent: -9999px;
+    position: absolute;
+    top: 20px;
+    left: 180px;
+}
+
+.view-vc-content-admin #views-form-vc-content-admin-page a.fieldset-title {
+    display: none;
+}
+
+.view-vc-content-admin #views-form-vc-content-admin-page .fieldset-legend {
+    background: none;
+}
+
+.view-vc-content-admin #views-form-vc-content-admin-page fieldset#edit-select {
+    position: relative;
+    margin-bottom: 0;
+    float: left;
+    width: 633px;
+    margin-top: 30px;
+}
+
+.view-vc-content-admin #views-form-vc-content-admin-page p {
+    margin-left: 10px;
+    clear: left;
+}
+
+.view-vc-content-admin .vbo-select-all-markup {
+    clear: left;
+}
+
+.view-vc-content-admin #views-form-vc-content-admin-page fieldset#edit-select .form-submit {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 95px;
+    height: 38px;
+    background: url(../images/remove-content-button.png) no-repeat top left;
+    float: left;
+    border-radius: 0px;
+    border: none;
+    font-size: 0;
+    text-indent: -9999px;
+}
+
+.view-vc-content-admin #views-form-vc-content-admin-page .views-row {
+    margin: 0 10px;
+    padding: 10px 0 10px 38px;
+    border-top: 1px solid #cccccc;
+    float: left;
+    width: 900px;
+    position: relative;
+}
+
+.view-vc-content-admin #views-form-vc-content-admin-page .views-row .form-type-checkbox {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: auto;
+    float: left;
+    position: absolute;
+    top: 40%;
+    left: 10px;
+}
+
+.view-vc-content-admin #views-form-vc-content-admin-page .views-row .Published {
+    color: #3cb176;
+    margin-top: 10px;
+}
+
+.view-vc-content-admin #views-form-vc-content-admin-page .views-row .Not-published {
+    color: #ff3939;
+    margin-top: 10px;
+}
+
+.view-vc-content-admin #views-form-vc-content-admin-page .views-row .content_node_title_link {
+    width: auto;
+    float: left;
+}
+
+.view-vc-content-admin #views-form-vc-content-admin-page .views-row .content_node_title_link a {
+    color: #383838;
+    text-decoration: none;
+    font-family: 'pt-sans';
+    font-size: 18px;
+}
+
+.view-vc-content-admin #views-form-vc-content-admin-page .views-row .content_node_edit_link {
+    width: auto;
+    float: right;
+    margin: -15px 43px 0 0;
+}
+
+.view-vc-content-admin #views-form-vc-content-admin-page .views-row .content_node_edit_link a {
+    width: 20px;
+    height: 31px;
+    float: left;
+    background: url(../images/edit-content-button.png) no-repeat top left;
+    font-size: 0px;
+    text-indent: -9999px;
+}
+
+.view-vc-content-admin #views-form-vc-content-admin-page.confirmation {
+    margin: 20px 10px 0 10px;
+}
+
+.view-vc-content-admin #views-form-vc-content-admin-page.confirmation .item-list h3 {
+    font-family: 'pt-sans-bold';
+    color: #b8b8b8;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.view-vc-content-admin #views-form-vc-content-admin-page.confirmation .form-submit {
+    padding: 15px;
+    background: #318b5d;
+    font-family: 'pt-sans-bold';
+    font-size: 11px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    border: none;
+    color: #FFFFFF;
+    text-shadow: none;
+}
+
+.view-vc-content-admin #views-form-vc-content-admin-page.confirmation #edit-cancel {
+    padding: 14px 15px;
+    background: #8d4848;
+    font-family: 'pt-sans-bold';
+    font-size: 11px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    border: none;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.view-vc-content-admin ul.pager {
+    margin: 20px 0;
+    float: left;
+    min-width: 140px;
+    left: 40%;
+    border: none;
+    border-radius: 0px;
+    background: none;
+}
+
+.view-vc-content-admin ul.pager li {
+    display: inline-block;
+    float: left;
+    width: auto;
+    background: none;
+    border: none;
+    padding: 0 10px;
+    position: static !important;
+}
+
+.view-vc-content-admin ul.pager li a {
+    float: left;
+    width: auto;
+    background: none;
+    border: none;
+    font-family: 'pt-sans';
+    font-size: 13px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.view-vc-content-admin ul.pager li.pager-current {
+    color: #13b664;
+    font-size: 16px;
+}
+
+body.page-node-edit div.tabs.clearfix, body.page-user-edit ul.tabs.clearfix,
+body.page-admin-structure-fieldable-panels-panes-view-edit div.tabs.clearfix,
+body.page-user ul.tabs.clearfix {
+    display: none;
+}
+
+body.page-node-edit form.node-form .form-item-title,
+body.page-node-add form.node-form .form-item-title,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .form-item-title {
+    margin-top: 20px !important;
+}
+
+body.page-node-edit form.node-form .form-item-title,
+body.page-node-edit form.node-form .form-wrapper,
+body.page-node-add form.node-form .form-item-title,
+body.page-node-add form.node-form .form-wrapper,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .form-item-title,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .form-wrapper {
+    width: 940px;
+    margin: 0 10px;
+    padding: 0;
+}
+
+body.page-user-edit form#user-profile-form .form-item {
+    width: 940px;
+    margin: 20px 10px;
+    padding: 0;
+}
+
+body.page-user-edit form#user-profile-form .form-item-pass .form-item {
+    margin: 0;
+}
+
+body.page-user form#user-profile-form .form-item-pass input.form-text {
+    width: 500px;
+}
+
+body.page-user .password-strength {
+    float: right;
+    margin-right: 100px;
+}
+
+body.page-user fieldset#edit-picture, body.page-user fieldset#edit-timezone {
+    margin: 0;
+}
+
+body.page-user-edit form#user-profile-form legend {
+    margin: 0 0 10px 10px;
+    font-family: 'pt-sans-bold';
+    color: #b8b8b8;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .form-item-reusable,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .form-item-category,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .form-item-admin-title,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .form-item-revision,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .form-item-path {
+    width: 940px;
+    margin: 0 10px;
+    padding: 0;
+}
+
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .form-item-link {
+    width: 940px;
+    margin: 20px 10px 0;
+    padding: 0;
+}
+
+body.page-node-edit form.node-form fieldset.form-wrapper,
+body.page-node-add form.node-form fieldset.form-wrapper,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form fieldset.form-wrapper {
+    margin-left: 0;
+}
+
+body.page-node-add form.node-form fieldset#edit-feeds {
+    margin-left: 10px;
+}
+
+body.page-node-edit form.node-form .container-inline-date .date-padding,
+body.page-node-add form.node-form .container-inline-date .date-padding,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .container-inline-date .date-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+body.page-node-edit form.node-form .form-wrapper.filter-help,
+body.page-node-add form.node-form .form-wrapper.filter-help,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .form-wrapper.filter-help {
+    float: right;
+    padding: 0 1.5em 0.5em;
+    width: auto !important;
+}
+
+body.page-node-edit form.node-form .filter-guidelines .tips,
+body.page-node-edit form.node-form .filter-guidelines .description,
+body.page-node-add form.node-form .filter-guidelines .tips,
+body.page-node-add form.node-form .filter-guidelines .description,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .filter-guidelines .tips,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .filter-guidelines .description {
+    font-size: 10px;
+    color: #6A6A6A;
+    margin-left: 25px;
+}
+
+body.page-node-edit form.node-form .field-name-field-event-video .form-wrapper,
+body.page-node-add form.node-form .field-name-field-event-video .form-wrapper,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .field-name-field-event-video .form-wrapper{
+    margin-left: 0;
+}
+
+body.page-node-add form.node-form .field-name-field-event-video,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .field-name-field-page-video {
+    margin-bottom: 30px;
+}
+
+body.page-node-edit form.node-form .vertical-tabs, body.page-node-add form.node-form .vertical-tabs,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .vertical-tabs {
+    float: left;
+    border-left: none;
+    border-right: none;
+    width: 765px;
+}
+
+body.page-node-edit form.node-form label, body.page-node-add form.node-form label,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form label {
+    font-family: 'pt-sans';
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+body.page-user form#user-profile-form label {
+    font-family: 'pt-sans';
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+body.page-node-edit form.node-form input.form-text, body.page-node-add form.node-form input.form-text,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form input.form-text {
+    width: 940px;
+    height: 52px;
+    border: 1px solid #aaaaaa;
+    font-size: 15px;
+}
+
+body.page-user form#user-profile-form input.form-text {
+    width: 940px;
+    height: 52px;
+    border: 1px solid #aaaaaa;
+    font-size: 15px;
+}
+
+body.page-node-edit form.node-form .description, body.page-node-add form.node-form .description,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .description {
+    font-family: 'pt-sans';
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+body.page-user form#user-profile-form .description {
+    font-family: 'pt-sans';
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+body.page-node-edit form.node-form .fieldset-legend, body.page-node-add form.node-form .fieldset-legend,
+body.page-admin-structure-fieldable-panels-panes-view-edit .fieldset-legend,
+body.page-user .fieldset-legend {
+    display: none;
+}
+
+body.page-node-edit form.node-form .button.launcher, body.page-node-add form.node-form .button.launcher,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .button.launcher {
+    padding: 15px;
+    background: #318b5d;
+    font-family: 'pt-sans-bold';
+    font-size: 11px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    border: none;
+    color: #FFFFFF;
+    text-shadow: none;
+    text-decoration: none;
+}
+
+body.page-node-edit form.node-form .button.remove, body.page-node-add form.node-form .button.remove,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .button.remove {
+    padding: 15px;
+    background: #8d4848;
+    font-family: 'pt-sans-bold';
+    font-size: 11px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    border: none;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+body.page-node-edit form.node-form .field-name-field-is-global label,
+body.page-node-edit form.node-form .field-name-field-upcoming-event label,
+body.page-node-edit form.node-form .field-name-field-upcoming-image label, 
+body.page-node-add form.node-form .field-name-field-is-global label,
+body.page-node-add form.node-form .field-name-field-upcoming-event label,
+body.page-node-add form.node-form .field-name-field-upcoming-image label,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .field-name-field-is-global label,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .field-name-field-upcoming-event label,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .field-name-field-upcoming-image label {
+    font-family: 'pt-sans-bold';
+    color: #b8b8b8;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+body.page-node-edit form.node-form .field-name-field-is-global label.option,
+body.page-node-edit form.node-form .field-name-field-upcoming-event label.option,
+body.page-node-add form.node-form .field-name-field-is-global label.option,
+body.page-node-add form.node-form .field-name-field-upcoming-event label.option,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .field-name-field-is-global label.option,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .field-name-field-upcoming-event label.option {
+    font-family: inherit;
+    font-size: inherit;
+    text-transform: inherit;
+    color: inherit;
+}
+
+body.page-node-edit form.node-form .vertical-tabs fieldset,
+body.page-node-edit form.node-form .vertical-tabs .form-text,
+body.page-node-add form.node-form .vertical-tabs fieldset,
+body.page-node-add form.node-form .vertical-tabs .form-text,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .vertical-tabs fieldset,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form .vertical-tabs .form-text {
+    width: 717px;
+}
+
+body.page-node-edit form.node-form #edit-submit, body.page-node-add form.node-form #edit-submit,
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form #edit-submit,
+body.page-user-edit form#user-profile-form #edit-submit{
+    width: 91px;
+    height: 38px;
+    float: left;
+    background: url(../images/save-button.png) no-repeat top left;
+    font-size: 0px;
+    text-indent: -9999px;
+    border-radius: 0px;
+    border: none;
+    margin-left: 700px;
+    margin-right: 10px;
+}
+
+body.page-user-edit form#user-profile-form #edit-submit{
+    margin-left: 10px;
+}
+
+body.page-admin-structure-fieldable-panels-panes-view-edit form#fieldable-panels-panes-entity-edit-form #edit-submit {
+    margin-left: 800px;
+}
+
+body.page-node-add form.node-form #edit-submit {
+    margin-left: 800px;
+}
+
+body.page-node-edit form.node-form #edit-delete {
+    width: 95px;
+    height: 38px;
+    float: left;
+    background: url(../images/delete-button.png) no-repeat top left;
+    font-size: 0px;
+    text-indent: -9999px;
+    border-radius: 0px;
+    border: none;
+}
+
+body.page-node-edit form.node-form #edit-preview, body.page-node-add form.node-form #edit-preview {
+    display: none;
+}
+
+body.page-node-edit .vertical-tabs ul.vertical-tabs-list li a,
+body.page-node-add .vertical-tabs ul.vertical-tabs-list li a{
+    padding: 0.5em 1.6em;
+}
+
+body.page-node-edit .vertical-tabs ul.vertical-tabs-list,
+body.page-node-add .vertical-tabs ul.vertical-tabs-list {
+    margin-right: 10px;
+}
+
+iframe.media-modal-frame #section-content {
+    width: auto;
+}
+
+iframe.media-modal-frame #zone-content-wrapper {
+    height: 100%;
+    width: 1080px;
+    margin: 20px auto 0;
+}

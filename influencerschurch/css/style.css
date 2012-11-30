@@ -109,6 +109,10 @@ body.context-user .profile, body.context-users .profile {
     margin: 20px auto 10px;
 }
 
+.grippie {
+    display: none;
+}
+
 /*======================================================= ZONE USER =======================================================*/
 
 .zone-user-wrapper {
@@ -191,28 +195,30 @@ body.context-user .profile, body.context-users .profile {
 	float:left;
 }
 
-#block-block-4 {
+.block-menu-new-influencer {
 	width:270px;
 	float:right;
 }
 
-#block-block-4 .be_an_influencer div {
+.block-menu-new-influencer ul.menu li {
 	width:auto;
 	background:#00a4e4;
 	border-radius:5px;
 	border:1px solid #0096d0;
 	padding:12px 21px;
 	float:left;
+        list-style: none;
+        margin: 0;
 }
 
-#block-block-4 .be_an_influencer div a {
+.block-menu-new-influencer ul.menu li a {
 	font-family: "proxima-nova";
 	text-transform:uppercase;
 	color:#FFFFFF;
 	text-decoration:none;
 }
 
-#block-block-4 .be_an_influencer .iam_new {
+.block-menu-new-influencer ul.menu li.first {
 	margin-right:10px;
 }
 
@@ -592,7 +598,7 @@ body.page-home .media-youtube-video {
     margin-top: 37px;
 }
 
-.pane-menu-menu-homepage-news-box ul li {
+.pane-menu-menu-homepage-news-box ul.menu li {
     list-style: none;
     width: 238px;
     height: 170px;
@@ -601,7 +607,7 @@ body.page-home .media-youtube-video {
     float: left;
 }
 
-.pane-menu-menu-homepage-news-box ul li a {
+.pane-menu-menu-homepage-news-box ul.menu li a {
     color: #00a4e4;
     text-decoration: none;
     font-size: 14px;
@@ -614,19 +620,19 @@ body.page-home .media-youtube-video {
     line-height: 330px;
 }
 
-.pane-menu-menu-homepage-news-box ul li.first a {
+.pane-menu-menu-homepage-news-box ul.menu li.first a {
     background-position: -6px 0;
 }
 
-.pane-menu-menu-homepage-news-box ul li.first + li a {
+.pane-menu-menu-homepage-news-box ul.menu li.first + li a {
     background-position: -256px top;
 }
 
-.pane-menu-menu-homepage-news-box ul li.first + li + li a {
+.pane-menu-menu-homepage-news-box ul.menu li.first + li + li a {
     background-position: -506px top;
 }
 
-.pane-menu-menu-homepage-news-box ul li.last a {
+.pane-menu-menu-homepage-news-box ul.menu li.last a {
     background-position: -756px top;
 }
 
@@ -677,12 +683,13 @@ body.context-give .block-system-main .content.clearfix, body.context-podcasts .b
 body.context-devotions-online .block-system-main .content.clearfix, body.context-store .block-system-main .content.clearfix,
 body.context-influencers-live .block-system-main .content.clearfix, body.context-concierge .block-system-main .content.clearfix,
 body.context-i-am-new .block-system-main .content.clearfix, body.context-influencer .block-system-main .content.clearfix,
-body.context-i-am-new .block-system-main .content.clearfix
+body.context-college .block-system-main .content.clearfix, body.context-give .block-system-main .content.clearfix
 {
     margin: 0;
 }
 
-body.context-events .campus_event_page_title, body.context-store .field-name-field-page-title {
+body.context-events .campus_event_page_title, body.context-store .field-name-field-page-title,
+body.context-events .panel-pane h2.pane-title {
     width: 960px;
     margin: 50px auto;
     padding-left: 40px;
@@ -755,16 +762,19 @@ body.context-events .event-carousel {
     background: url(../images/content-bg2.png) no-repeat 50% top;
 }
 
-body.context-events .global_event_image.pane-event {
+body.context-events .global_event_image.pane-event,
+body.context-events .view-global-event {
     width: 1000px;
     margin: 0 auto;
 }
 
-body.context-events .global_event_image.pane-event h2.pane-title {
+body.context-events .global_event_image.pane-event h2.pane-title,
+body.context-events .panel-pane h2.pane-title {
     margin-left: 40px;
 }
 
-.global-events .campus_global_event {
+.global-events .campus_global_event,
+.view-global-event .views-row {
     width: 230px;
     height: 200px;
     float: left;
@@ -773,7 +783,8 @@ body.context-events .global_event_image.pane-event h2.pane-title {
     overflow: hidden;
 }
 
-.global-events .campus_global_event .global_event_title {
+.global-events .campus_global_event .global_event_title,
+.view-global-event .campus_global_event .global_event_title {
     width: 220px;
     height: 190px;
     position: absolute;
@@ -786,7 +797,8 @@ body.context-events .global_event_image.pane-event h2.pane-title {
     padding: 10px 0 0 10px;
 }
 
-.global-events .campus_global_event .global_event_title a {
+.global-events .campus_global_event .global_event_title a,
+.view-global-event .campus_global_event .global_event_title a{
     font-family: 'pt-sans';
     font-size: 20px;
     color: #FFFFFF;
@@ -795,12 +807,12 @@ body.context-events .global_event_image.pane-event h2.pane-title {
 }
 
 body.context-campus .pane-page-title, body.context-services .field-name-field-page-title,
-body.context-give .pane-page-title, body.context-influencer .field-name-field-page-title {
+body.context-give .field-name-field-page-title, body.context-influencer .field-name-field-page-title {
     text-align: center;
 }
 
 body.context-services .field-name-field-page-title, body.context-give .pane-page-title,
-body.context-influencer .field-name-field-page-title{
+body.context-influencer .field-name-field-page-title, body.context-give .field-name-field-page-title {
     margin-top: 37px;
 }
 
@@ -815,6 +827,39 @@ body.context-influencer .field-name-field-page-description {
     width: 760px;
     margin: 0 auto;
     font-size: 15px;
+}
+
+body.context-give .field-name-field-page-description {
+    width: 660px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+body.context-give .give_button {
+    width: 700px;
+    margin: 0 auto 30px;
+    font-size: 14px;
+    font-family: 'proxima-nova-light';
+    color: #cdcdcd;
+    text-align: center;
+    background: url(../images/giving-button.png) no-repeat 50% 50%;
+    height: 48px;
+}
+
+body.context-give .give_button .give_money, body.context-give .give_button .give_time {
+    width: 328px;
+    height: 48px;
+    line-height: 48px;
+    float: left;
+}
+
+body.context-give .give_button .give_money {
+    margin-left: 20px;
+}
+
+body.context-give form.webform-client-form {
+    width: 660px;
+    margin: 0 auto;
 }
 
 body.context-influencer .field-name-field-page-description,
@@ -953,7 +998,8 @@ body.context-concierge .concierge_register_button_block {
 }
 
 body.context-concierge .webform-client-form label,
-body.context-group .webform-client-form label{
+body.context-group .webform-client-form label,
+body.context-give .webform-client-form label {
     display: none;
 }
 
@@ -970,7 +1016,8 @@ body.context-college .ajax-webform-form .form-text {
     width: 100%;
 }
 
-body.context-group .webform-client-form .form-text {
+body.context-group .webform-client-form .form-text,
+body.context-give .webform-client-form .form-text {
     height: 50px;
     background: #FFFFFF url(../images/textbox-bg.png) repeat-x left top;
     border:1px solid #b2b2b2;
@@ -980,6 +1027,18 @@ body.context-group .webform-client-form .form-text {
     width: 49%;
     float: left;
     margin: 5px 1% 5px 0;
+}
+
+body.context-give .webform-client-form .form-textarea {
+    height: 150px;
+    background: #FFFFFF url(../images/textbox-bg.png) repeat-x left top;
+    border:1px solid #b2b2b2;
+    font-family: 'pt-sans';
+    font-size: 14px;
+    color: #a7a7a7;
+    width: 653px;
+    float: left;
+    margin-bottom: 5px;
 }
 
 body.context-concierge .webform-client-form #edit-submitted-service {
@@ -1024,7 +1083,7 @@ body.context-group .webform-client-form .form-submit {
 }
 
 body.context-concierge .minimise, body.context-group .minimise, body.context-campus .minimise,
-body.context-influencer .minimise{
+body.context-influencer .minimise, body.context-give .minimise, body.context-college .minimise {
     display: none;
 }
 
@@ -1063,7 +1122,7 @@ body.context-podcasts .podcasts_button {
 }
 
 body.context-podcasts .podcasts_itunes_button, body.context-podcasts .podcasts_rss_button,
-body.context-i-am-new .pane-1.pane-custom a{
+body.context-i-am-new .pane-1.pane-custom a, body.context-give .webform-client-form .form-submit {
     background: #FA4719;
     border-radius: 3px;
     border: none;
@@ -1076,6 +1135,10 @@ body.context-i-am-new .pane-1.pane-custom a{
     text-shadow: none;
     text-decoration: none;
     margin-right: 10px;
+}
+
+body.context-give .webform-client-form .form-submit {
+    background: #696969;
 }
 
 body.context-i-am-new .pane-1.pane-custom {
@@ -1115,11 +1178,15 @@ body.context-team .more-link a {
     padding: 0 18px;
 }
 
-body.context-team .field-name-field-page-title, body.context-team .campus_team_page_title h2 {
+body.context-team h2.pane-title, body.context-team .campus_team_page_title h2 {
     margin-bottom: 16px;
     width: 630px;
     margin: 0 auto;
     text-align: center;
+}
+
+body.context-team h2.pane-title {
+    margin-bottom: 10px;
 }
 
 body.context-team .campus_team_page_title h2, body.context-events .campus_event_page_title {
@@ -1255,8 +1322,163 @@ body.context-global-home .zone-branding.container-12 .grid-12 {
     margin: 0;
 }
 
-body.context-global-home .global-home-menu {
+body.context-global-home .view-global-home {
+    width: 1000px;
+    float: left;
     margin-bottom: 24px;
+}
+
+body.context-global-home .view-global-home ul li {
+    margin: 0;
+    padding: 0;
+}
+
+body.context-global-home ul li a:hover {
+    text-decoration: underline !important;
+}
+
+body.context-global-home .global-campus ul li.views-row {
+    width: 160px;
+    height: auto;
+    display: block;
+    float: left;
+    overflow-x: hidden;
+    margin-right: 10px;
+    position: relative;
+    min-height: 360px;
+    cursor: pointer;
+}
+
+body.context-global-home .global-campus ul li.views-row.active {
+    width: 490px;
+}
+
+body.context-global-home .global-campus ul li.views-row img {
+    opacity:0.4;
+    filter:alpha(opacity=40);
+}
+
+body.context-global-home .global-campus ul li.views-row.active img {
+    opacity:1;
+    filter:alpha(opacity=100);
+}
+
+body.context-global-home .global-campus ul li.views-row-last {
+    margin-right: 0;
+}
+
+body.context-global-home .campus_country {
+    position: absolute;
+    font-family: 'proxima-nova-light';
+    font-size: 36px;
+    color: #FFFFFF;
+    left: 10px;
+    top: 140px;
+    max-width: 160px;
+}
+
+body.context-global-home .global-campus ul li.views-row-first .campus_country {
+    top: 230px;
+}
+
+body.context-global-home .global-campus ul li.views-row-first + li .campus_country {
+    top: 230px
+}
+
+body.context-global-home .global-campus ul li.views-row-first + li + li .campus_country {
+    top: 185px;
+}
+
+body.context-global-home .global-campus .campus_local {
+    width: 140px;
+    background: #f2f2f2;
+    min-height: 150px;
+    padding: 14px 10px 0;
+    
+}
+
+body.context-global-home .global-campus ul li.views-row.active .campus_local {
+    width: 468px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+}
+
+body.context-global-home .global-campus .campus_local ul li {
+    margin-bottom: 5px;
+}
+
+body.context-global-home .global-campus .campus_local ul li a {
+    font-family: 'pt-sans';
+    font-size: 18px;
+    text-decoration: none;
+    color: #b8b8b8;
+}
+
+body.context-global-home .global-campus ul li.views-row.active .campus_local ul li a {
+    color: #555555;
+}
+
+body.context-global-home .global-member ul li.views-row {
+    width: 320px;
+    height: 172px;
+    border: 1px solid #dedede;
+    border-radius: 3px;
+    float: left;
+    display: inline-block;
+    background: #FFFFFF;
+    margin: 0 17px;
+    position: relative;
+}
+
+body.context-global-home .global-member ul li.views-row-first,
+body.context-global-home .global-member ul li.views-row-last {
+    margin: 0;
+}
+
+body.context-global-home .global-member ul li.views-row .member_image {
+    float: left;
+    width: 130px;
+    height: 130px;
+    margin: 25px 21px 0 18px;
+}
+
+body.context-global-home .global-member ul li.views-row .member_name {
+    font-family: 'pt-sans-bold';
+    font-size: 18px;
+    float: left;
+    width: 140px;
+    color: #fa4719;
+    margin-top: 33px;
+    margin-bottom: 8px;
+}
+
+body.context-global-home .global-member ul li.views-row .member_social_links li {
+    float: left;
+    width: 140px;
+    padding: 4px 0;
+}
+
+body.context-global-home .global-member ul li.views-row .member_social_links a {
+    font-family: 'pt-sans';
+    font-size: 14px;
+    color: #4c4c4c;
+    text-decoration: none;
+}
+
+body.context-global-home .global-member ul li.views-row .image-border {
+    position: absolute;
+    z-index: 5;
+    top: 20px;
+    left: 13px;
+    width: 130px;
+    height: 130px;
+    background: url(../images/global-home-img-border.png) no-repeat left top;
+}
+
+body.context-global-home #region-footer-first {
+    display: none;
 }
 
 .sidebar-menu {

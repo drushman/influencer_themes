@@ -505,12 +505,12 @@ form#vc-admin-site-settings-form .form-actions {
     margin: 0 10px 0 5px;
 }
 
-.google-analytics-top ul, .google-analytics-referrals ul, .google-analytics-keywords ul {
+.google-analytics-pages ul, .google-analytics-referrals ul, .google-analytics-keywords ul {
     float: left;
     margin-bottom: 5px;
 }
 
-.google-analytics-top ul li, .google-analytics-referrals ul li, .google-analytics-keywords ul li {
+.google-analytics-pages ul li {
     margin: 0;
     text-align: center;
     width: 588px;
@@ -521,7 +521,19 @@ form#vc-admin-site-settings-form .form-actions {
     float: left;
 }
 
-.google-analytics-top ul li.first, .google-analytics-referrals ul li.first, .google-analytics-keywords ul li.first {
+.google-analytics-referrals ul li, .google-analytics-keywords ul li {
+    margin: 0;
+    padding: 10px 0 10px 14px;
+    text-align: left;
+    width: 269px;
+    border-bottom: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+    background: #f7f7f7;
+    float: left;
+}
+
+.google-analytics-pages ul li.first {
     border-bottom: none;
     background: #457e9b;
     width: 590px;

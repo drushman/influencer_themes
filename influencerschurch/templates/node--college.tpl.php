@@ -19,13 +19,12 @@
         hide($content['field_link_text']);
         print render($content);     
       ?>
+<!-- <?php /**  
       <a class="use-ajax" href="<?php global $base_url; print $base_url?>/church-life/load/client-block-32<?php print "/{$nid}/ajax-form-" . $nid ?>" ><?php print render($content['field_link_text'][0]['#markup'])?></a>
-      <div id="<?php print 'ajax-form-' . $nid ?>" class="ajax-webform-form">
-        
-      </div>
-    </div>
-    
-      
+*/  ?>  -->      
+      <a class="use-ajax" href="<?php global $base_url; print $base_url?>/church-life/load/go_trip_webform<?php print "/{$nid}/ajax-form-" . $nid ?>" ><?php print render($content['field_link_text'][0]['#markup'])?></a>
+      <div id="<?php print 'ajax-form-' . $nid ?>" class="ajax-webform-form"></div>
+    </div>      
   </div>
 </div>
 <?php else:?>

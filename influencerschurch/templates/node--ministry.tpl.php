@@ -17,13 +17,12 @@
         hide($content['links']);
         print render($content);     
       ?>
+<!-- <?php /**      
       <a class="use-ajax" href="<?php global $base_url; print $base_url?>/church-life/load/client-block-4/<?php print "{$nid}/ajax-form-" . $nid ?>">Learn more</a>
-      <div id="<?php print 'ajax-form-' . $nid ?>" class="ajax-webform-form">
-        
-      </div>
-    </div>
-    
-      
+*/  ?>  -->   
+      <a class="use-ajax" href="<?php global $base_url; print $base_url?>/church-life/load/ministry_connect_webform/<?php print "{$nid}/ajax-form-" . $nid ?>">Learn more</a>
+      <div id="<?php print 'ajax-form-' . $nid ?>" class="ajax-webform-form"></div>
+    </div>      
   </div>
 </div>
 <?php else:?>

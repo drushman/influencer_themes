@@ -21,6 +21,11 @@ jQuery(document).ready(function() {
     textblur('body.context-group .webform-client-form #edit-submitted-phone-number');
     textblur('body.context-group .webform-client-form #edit-submitted-age');
     textblur('body.context-group .webform-client-form #edit-submitted-postcode');
+    textblur('body.context-give .webform-client-form #edit-submitted-first-name');
+    textblur('body.context-give .webform-client-form #edit-submitted-last-name');
+    textblur('body.context-give .webform-client-form #edit-submitted-email');
+    textblur('body.context-give .webform-client-form #edit-submitted-phone');
+    textblur('body.context-give .webform-client-form #edit-submitted-skills');
     
     jQuery('.church_life_teaser .ajax-processed').click(function () {
       jQuery('.ajax-webform-form').hide();

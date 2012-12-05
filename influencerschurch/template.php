@@ -10,3 +10,12 @@
  * for your subtheme grows. Please read the README.txt in the /preprocess and /process subfolders
  * for more information on this topic.
  */
+ 
+//function influencerschurch_node_view($node, $view_mode, $langcode) {
+//  if ($node->type == 'event' && $view_mode == 'full') {
+//    menu_tree_set_path('main-menu', 'events');
+//  }
+//}
+//function influencerschurch_preprocess_panels_pane(&$variables) {
+//    dsm($variables);
+//}

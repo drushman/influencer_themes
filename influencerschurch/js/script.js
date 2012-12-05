@@ -7,9 +7,11 @@ jQuery(document).ready(function() {
     jQuery("a.yes").click(function () {
       jQuery('#webform-client-form-17').slideDown();
       jQuery('#webform-client-form-23').slideDown();
+      jQuery('.message-block').hide();
     });
     jQuery("a.no").click(function () {
       jQuery('#webform-client-form-17').slideUp();
+      jQuery('.message-block').show();
     });
     
     textblur('body.context-concierge .webform-client-form #edit-submitted-name');

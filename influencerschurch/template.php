@@ -11,11 +11,8 @@
  * for more information on this topic.
  */
  
-//function influencerschurch_node_view($node, $view_mode, $langcode) {
-//  if ($node->type == 'event' && $view_mode == 'full') {
-//    menu_tree_set_path('main-menu', 'events');
-//  }
-//}
-//function influencerschurch_preprocess_panels_pane(&$variables) {
-//    dsm($variables);
-//}
+function influencerschurch_preprocess_panels_pane(&$variables) {
+    //if ($variables['content']['#fieldable_panels_pane']->admin_title == 'Concierge Page Header') {
+      //menu_tree_set_path('main-menu', 'concierge');
+    //}
+}

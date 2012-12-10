@@ -836,6 +836,7 @@ body.context-influencer .field-name-field-page-video .media-vimeo-outer-wrapper,
 body.context-services .field-name-field-page-video .media-youtube-video,
 body.context-influencer .field-name-field-page-video .media-youtube-video{
     margin: 0 auto 40px;
+    max-width: 666px;
 }
 
 body.context-services .field-name-field-page-video, body.context-services .pane-node .node-page,

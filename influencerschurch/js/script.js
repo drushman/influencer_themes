@@ -5,12 +5,12 @@ jQuery(document).ready(function() {
     jQuery('.footer-menu ul.menu').children('li.expanded').children('a').attr('href', '#block-menu-menu-footer-menu');
     
     jQuery("a.yes").click(function () {
-      jQuery('#webform-client-form-17').slideDown();
-      jQuery('#webform-client-form-23').slideDown();
+      jQuery('.webform-concierge .webform-client-form').slideDown();
+      jQuery('.webform-groups .webform-client-form').slideDown();
       jQuery('.message-block').hide();
     });
     jQuery("a.no").click(function () {
-      jQuery('#webform-client-form-17').slideUp();
+      jQuery('.webform-concierge .webform-client-form').slideUp();
       jQuery('.message-block').show();
     });
     

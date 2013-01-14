@@ -78,6 +78,10 @@ a {
 	background:#FFFFFF url(../images/page-content-bg.png) repeat-y top left;	
 }
 
+body #page-title {
+  display: none;
+}
+
 #section-header, #section-content, #section-footer {
 	width:1100px;
 	margin:0 auto;
@@ -696,6 +700,7 @@ body.context-college .block-system-main .content.clearfix, body.context-give .bl
 body.context-disclaimer .block-system-main .content.clearfix, body.context-privacy-policy .block-system-main .content.clearfix,
 body.context-highlights .block-system-main .content.clearfix, body.context-join-a-group .block-system-main .content.clearfix,
 body.context-streaming-help .block-system-main .content.clearfix, body.context-home .block-system-main .content.clearfix,
+body.context-contact .block-system-main .content.clearfix, body.context-home .block-system-main .content.clearfix,
 body.page-node .block-system-main .content.clearfix, body.context-error .block-system-main .content.clearfix
 {
     margin: 0;
@@ -1044,6 +1049,20 @@ body.context-devotions-online .devotions_feature div a:hover {
 
 body.context-group .pane-1.pane-custom {
     text-align: center;
+}
+
+body.context-contact .panel-col-first {
+    width: 608px;
+    margin-right: 72px;
+    margin-left: 50px;
+    margin-top: 37px;
+    float: left;
+    font-size: 15px;
+}
+
+body.context-contact .panel-col-last {
+    width: 320px;
+    float: left;
 }
 
 body.context-concierge .panel-col-first {
@@ -1526,6 +1545,19 @@ body.page-global-home .global-campus .campus_local ul li a {
     color: #b8b8b8;
 }
 
+body.page-global-home .global-campus .campus_local ul li a:hover {
+  text-decoration: none !important;
+}
+
+body.page-global-home .global-campus .campus_local ul li img {
+  display: none;
+  padding: 0 0 8px 8px;
+}
+
+body.page-global-home .global-campus .campus_local ul li:hover img {
+  display: inline-block;
+} 
+
 body.page-global-home .global-campus ul li.views-row.active .campus_local ul li a {
     color: #555555;
 }
@@ -1575,6 +1607,19 @@ body.page-global-home .global-member ul li.views-row .member_social_links a {
     font-size: 14px;
     color: #4c4c4c;
     text-decoration: none;
+}
+
+body.page-global-home .global-member ul li.views-row .member_social_links a:hover {
+    text-decoration: none !important;
+}
+
+body.page-global-home .global-member ul li.views-row .member_social_links li img {
+  display: none;
+  padding: 0 0 5px 8px;
+}
+
+body.page-global-home .global-member ul li.views-row .member_social_links li:hover img {
+  display: inline-block;
 }
 
 body.page-global-home .global-member ul li.views-row .image-border {

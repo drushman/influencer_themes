@@ -631,6 +631,21 @@ form#vc-admin-site-settings-form .form-actions {
     text-transform: uppercase;
 }
 
+body.page-vc-contents .tabs {
+    position: absolute;
+    left: 5px;
+    top: 50px;
+    width: 97.5%;
+}
+
+body.page-vc-contents .tabs li {
+    font-size: 16px;
+}
+
+body.page-vc-contents .view-vc-content-nodetype-admin, body.page-vc-contents .view-vc-content-pages-admin {
+    margin-top: 30px;
+}
+
 body.page-vc-contents .content_type_list li {
     margin: 0 10px;
     padding: 30px 37px;
@@ -654,6 +669,15 @@ body.page-vc-contents .content_type_list li a {
     text-decoration: none;
     clear: left;
     float: left;
+}
+
+body.page-vc-contents .item-list ul {
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+body.page-vc-contents .item-list ul li a{
+    text-decoration: none;
 }
 
 .view-vc-content-admin .view-header {

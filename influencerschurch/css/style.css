@@ -164,12 +164,12 @@ body.context-user .profile, body.context-users .profile {
 }
 
 #region-user-second {
-	width: 380px;
-	margin-left: 0;
-	margin-right: 0;
-	float:left;
-	min-height:46px;
-	line-height:46px;
+	width: auto;
+  margin-left: 0;
+  margin-right: 0;
+  float: right;
+  min-height: 46px;
+  line-height: 46px;
 }
 
 #region-user-second ul.times {
@@ -788,7 +788,7 @@ body.context-events .view-global-event {
 
 body.context-events .global_event_image.pane-event h2.pane-title,
 body.context-events .panel-pane h2.pane-title {
-    margin-left: 40px;
+/*    margin-left: 40px; */
 }
 
 .global-events .campus_global_event,

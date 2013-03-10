@@ -731,6 +731,20 @@ body.context-store .pane-1.pane-custom .pane-content {
     background: url(../images/content-bg2.png) no-repeat 50% top;
 }
 
+body.context-store .field-name-field-page-description {
+    width: 1000px;
+    margin: 0 auto 37px;
+    padding: 29px 0;
+}
+
+body.context-store .field-name-field-page-description .field-items {
+    width: 960px;
+    margin: 0 auto 20px 20px;
+    padding: 29px 0 0;
+    float: left;
+    background: url(../images/content-bg2.png) no-repeat 50% top;
+}
+
 .store_conference, .store_ash_jane, .store_albums {
     position: relative;
     width: 300px;
@@ -824,28 +838,24 @@ body.context-events .panel-pane h2.pane-title {
     text-decoration: none;
 }
 
-body.context-campus .pane-page-title, body.context-services .field-name-field-page-title,
+body.context-campus .pane-page-title,
 body.context-give .field-name-field-page-title, body.context-influencer .field-name-field-page-title
 {
     text-align: center;
 }
 
-body.context-services .field-name-field-page-title, body.context-give .pane-page-title,
+body.context-give .pane-page-title,
 body.context-influencer .field-name-field-page-title, body.context-give .field-name-field-page-title
 {
     margin-top: 37px;
 }
 
-body.context-services .field-name-field-page-video .media-vimeo-outer-wrapper,
 body.context-influencer .field-name-field-page-video .media-vimeo-outer-wrapper,
-body.context-services .field-name-field-page-video .media-youtube-video,
 body.context-influencer .field-name-field-page-video .media-youtube-video{
     margin: 0 auto 40px;
     max-width: 666px;
 }
 
-body.context-services .field-name-field-page-video, body.context-services .pane-node .node-page,
-body.context-services .field-name-field-page-description,
 body.context-influencer .field-name-field-page-description {
     width: 760px;
     margin: 0 auto;
@@ -1376,7 +1386,7 @@ body.context-location .panel-col-first, body.context-vision .panel-col-first,
 body.context-about-ash-jane .panel-col-first, body.page-node.node-type-event .panel-col-first,
 body.context-disclaimer .panel-col-first, body.context-privacy-policy .panel-col-first,
 body.context-highlights .panel-col-first, body.context-streaming-help .panel-col-first,
-body.context-join-a-group .panel-col-first {
+body.context-join-a-group .panel-col-first, body.context-services .panel-col-first {
     width: 608px;
     margin-right: 72px;
     margin-left: 50px;
@@ -1389,7 +1399,7 @@ body.context-location .panel-col-last, body.context-vision .panel-col-last,
 body.context-about-ash-jane .panel-col-last, body.page-node.node-type-event .panel-col-last,
 body.context-disclaimer .panel-col-last, body.context-privacy-policy .panel-col-last,
 body.context-highlights .panel-col-last, body.context-streaming-help .panel-col-last,
-body.context-join-a-group .panel-col-last {
+body.context-join-a-group .panel-col-last, body.context-services .panel-col-last {
     width: 320px;
     float: left;
 }
